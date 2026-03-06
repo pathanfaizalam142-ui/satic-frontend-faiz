@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my frontend journey</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+       
+</head>
+<body>
+        <nav class="navbarr">
+             <div class="logo">Faiz Alam</div>
+          <div class="nav-links">
+            <a href="#">home</a>
+            <a href="#">projects</a>
+            <a href="#">contact</a>
+            <button class="cta-btn">Hire me</button>
+          </div>
+          <div class="hamburger" id="hamburger">&#9776;</div>
+        </nav>
+        <section>
+<form class="search-form" aria-label="search content">
+    <label for="searchInput" class="sr-only">search</label>
+    <input type="text" id="searchInput" placeholder="search interships" required>
+    <button type="submit">&#128269;</button>
+</form>
+</section>
+    <header>
+        <h1>Faiz alam </h1>
+        <h2>FRONTEND INTERSHIP</h2>
+    </header>
+
+    <main>
+        <section>
+            <h3>
+                my frontend journey
+            </h3>
+            <ul>
+                <li>day 1 : setup & deployment completed</li>
+            </ul>
+        </section>
+  
+         <h2> Day 2:Button Component System</h2>
+
+               <div class="row">
+      <p>Primary Buttons</p>
+      <button class="btn btn-primary">Default</button>
+      <button class="btn btn-primary">Hover</button>
+      <button class="btn btn-primary active">Active</button>
+      <button class="btn btn-primary" disabled>Disabled</button>
+    </div>
+         
+    <div class="row">
+      <p>Secondary Buttons (Outline)</p>
+      <button class="btn btn-secondary">Default</button>
+      <button class="btn btn-secondary">Hover</button>
+      <button class="btn btn-secondary active">Active</button>
+      <button class="btn btn-secondary" disabled>Disabled</button>
+    </div>
+              <section class="projects">
+            <h2 class="ll">my projects</h2>
+
+            <div class="projects-grid">
+          <div class="card">
+              <div class="card-image">
+                 <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800" alt="Portfolio Website">
+              </div>
+              <divc class="card-content">
+                <h3 class="kk">Portfolio website</h3>
+                <P>short projects description</P>
+            <button class="second-btn">view project</button>
+              </divc>
+          </div>
+          <div class="card">
+            <div class="card-image">
+               <img src="image.png.jpeg" alt="Ecommerce UI">  
+            </div>
+            <div class="card-content">
+                <h3 class="kk">E-commerce UI</h3>
+                <P>This project includes a medium length description to test card height alignment in the grid system.</P>
+                <button class="second-btn">view project</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+               <img src="imggg.png.jpeg" alt="Dashboard System">
+            </div>
+            <div class="card-content">
+                <h3 class="kk">Dashbord system</h3>
+                <P>This project demonstrates a longer description. The purpose is to test equal height behavior of cards inside a CSS Grid layout whilemaintaining strict visual alignmentacross all rows.</P>
+             <button class="second-btn">view project</button>
+
+            </div>
+          </div>
+            </div>
+              </section>
+              <h1>Notification playground</h1>
+              <div class="playground">
+                <button class="btn-success" onclick="showToast('success')">trigger success</button>
+                <button class="btn-error" onclick="showToast('error')">trigger error</button>
+              </div>
+              <div id="toast-container"></div>
+              <br>
+              <br>
+   <section class="contact-section">
+  <h2>Contact Me</h2>
+
+  <form id="contactForm">
+    
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name">
+      <span class="error-msg" id="nameError"></span>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email">
+      <span class="error-msg" id="emailError"></span>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea id="message"></textarea>
+      <span class="error-msg" id="messageError"></span>
+    </div>
+
+    <button type="submit" id="submitBtn" disabled>
+      Send Message
+    </button>
+  </form>
+</section>
+  <br>
+ </main>
+    <footer class="site-footer">
+         <div class="footer-container">
+          <div class="footer-col">
+            <h3>Faiz Alam</h3>
+            <P>frontend developer building clean UI.</P>
+          </div>
+          <div class="footer-col">
+            <h4>Quick links</h4>
+            <ul>
+              <Li><a href="#">Home</a></Li>
+              <LI><A href="#">projects</A></LI>
+              <li><A href="#">contact</A></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Social</h4>
+            <ul>
+              <li><a href="#">🐙Github</a></li>
+              <li><a href="#">💼LinkedIn</a></li>
+               <li><a href="#">📸instagram</a></li>
+              <li><a href="#">📘facebook</a></li>
+            </ul>
+          </div>        
+         </div>
+         <div class="footer-bottom">
+          &#169; Faiz Alam
+         </div>
+             <button id="backTOTopbtn">&#8593;</button>
+    </footer>
+    <br>
+    
+
+
+    <script src="java script/script.js"></script>
+</body>
+</html>
